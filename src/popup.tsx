@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Upload, Button, Typography, List, message, Space, Card, Spin, Modal, Input, Tag } from "antd";
 import { UploadOutlined, FilePdfOutlined, FileTextOutlined, KeyOutlined } from "@ant-design/icons";
 import { OpenAI } from "openai";
-import './content_script'
+import './preload'
 // import "antd/dist/reset.css";
 
 const { Title, Text, Paragraph } = Typography;
